@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('../assets/water.jpg');
+	background-size: cover;
+}
+
+.wrapper {
+	text-align: center;
+	width: 83%;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.title1box {
+	background-color: rgba(218,112,214,0.4);
+	background-opacity: 0.2;
+	border: 3px solid black;
+
+}
+
+.traininfo {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.scheduletitle {
+	background: rgba(135,206,235,0.4);
+}
+
+.tablesty {
+	background: rgba(204,204,204,0.5);
+	text-align: center;
+	border: 2px dotted blue;
+	width: 100%;
+}
+
+.tops {
+	border-bottom: 2px solid black;
+}
+
+.trainadd {
+	background-color: rgba(112,128,144,0.3);
+	border: 2px solid black;
+}

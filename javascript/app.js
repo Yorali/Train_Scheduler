@@ -1,8 +1,6 @@
 $(document).ready(function() {
 	// Initialize Firebase here
 
-
-
 	firebase.initializeApp(config);
 
 	var flame = firebase.database();
@@ -52,9 +50,9 @@ $(document).ready(function() {
 		$("#schedule-table").append("<tr class='items'><th class='bits'>" + 
 			childSnapshot.val().trainName + "</th><th class='bits'>" + 
 			childSnapshot.val().destination + "</th><th class='bits'>" + 
-			childSnapshot.val().frequency + "</th><th class='bits'>" + 
-			childSnapshot.val().nextArrival + "</th><th class='bits'>" + 
-			childSnapshot.val().minutesAway + "</tr>");
+			childSnapshot.val().frequency + '分' + "</th><th class='bits'>" + 
+			childSnapshot.val().nextArrival + '時' + "</th><th class='bits'>" + '後' +
+			childSnapshot.val().minutesAway + '分' + "</tr>");
 
 
 
